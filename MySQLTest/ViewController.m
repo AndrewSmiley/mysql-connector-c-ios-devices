@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "mysql.h"
+#import <stdio.h>
 @interface ViewController ()
 
 @end
