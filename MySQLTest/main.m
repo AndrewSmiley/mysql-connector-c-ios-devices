@@ -16,10 +16,10 @@ int main(int argc, char * argv[]) {
     
     MYSQL_RES *res;
     MYSQL_ROW row;
-    char *server = "dbase3.daap.uc.edu";
-    char *user = "intranet";
-    char *password = "n3w0rd3r"; /* set me first */
-    char *database = "admin";
+    char *server = "hostname";
+    char *user = "user";
+    char *password = "pass"; /* set me first */
+    char *database = "db";
     mysql_init(&conn);
     /* Connect to database */
     if (!mysql_real_connect(&conn, server,
